@@ -6,9 +6,11 @@
 /*   By: demikael <pinheiromikael96@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/14 22:29:20 by demikael          #+#    #+#             */
-/*   Updated: 2021/08/14 22:29:21 by demikael         ###   ########.fr       */
+/*   Updated: 2021/08/19 18:26:10 by demikael         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_toupper(int c)
 {
