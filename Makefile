@@ -7,10 +7,6 @@ CFLAGS = -c \
 		-Werror\
 		-Wextra
 
-DIR = 		./
-
-
-
 AR		= ar
 RM		= rm -f
 
@@ -51,19 +47,9 @@ bonus: $(NAME) $(OBJ_BONUS)
 clean:
 	$(RM) $(OBJ)
 
-so:
-	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRC)
-	gcc -nostartfiles -shared -o libft.so $(OBJ)
-
 fclean: clean
 	$(RM) $(NAME) $(OBJ_BONUS)
 
 re: fclean all
-
-
-runw:
-	bash warmachine/grademe.sh -u -ob
-
-
 
 .PHONY: all fclean clean re bonus
