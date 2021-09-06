@@ -6,13 +6,13 @@
 /*   By: demikael <pinheiromikael96@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/06 14:45:10 by demikael          #+#    #+#             */
-/*   Updated: 2021/09/06 14:46:22 by demikael         ###   ########.fr       */
+/*   Updated: 2021/09/06 14:52:39 by demikael         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	intlen(long int n)
+int	ft_count_digit(long int n)
 {
 	int	i;
 
