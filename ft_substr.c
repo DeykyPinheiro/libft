@@ -6,7 +6,7 @@
 /*   By: demikael <pinheiromikael96@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/14 22:29:11 by demikael          #+#    #+#             */
-/*   Updated: 2021/08/14 22:29:11 by demikael         ###   ########.fr       */
+/*   Updated: 2021/09/06 16:43:41 by demikael         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*substring;
 	size_t	s_len;
-	size_t	i;
 
-	i = 0;
 	if (!s)
 		return (0);
 	s_len = ft_strlen(s);
